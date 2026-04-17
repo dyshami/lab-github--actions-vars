@@ -37,6 +37,7 @@ jobs:
           # TODO: Gere um numero aleatorio e o salve em GITHUB_ENV como BUILD_HASH
           # Exemplo: RANDOM_NUM=$RANDOM
           # echo "BUILD_HASH=$RANDOM_NUM" >> $GITHUB_ENV
+          RANDOM_NUM=$RANDOM
           echo "BUILD_HASH=$RANDOM_NUM" >> $GITHUB_ENV # Placeholder
 
       - name: "Passo 5: Usar Codigo Dinamico"
